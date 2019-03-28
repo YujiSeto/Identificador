@@ -7,7 +7,6 @@ using Identificador;
 
 namespace Identificador.Classes
 {
-
     //Declarar Indivíduos
     public class Individuo
     {
