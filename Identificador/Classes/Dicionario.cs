@@ -11,17 +11,18 @@ namespace Identificador.Classes
     public class Individuo
     {
         private string classe1;
-        private double a1, b1, c1, d1;
+        private double a1, b1, c1, d1, e1;
         private bool trocado1;
         private bool usado1;
         private bool errado1;
 
-        public Individuo(string classe, double a, double b, double c, double d)
+        public Individuo(string classe, double a, double b, double c, double d, double e)
         {
             a1 = a;
             b1 = b;
             c1 = c;
             d1 = d;
+            e1 = e;
             classe1 = classe;
             trocado1 = false;
         }
@@ -67,6 +68,17 @@ namespace Identificador.Classes
             set
             {
                 d1 = value;
+            }
+        }
+        public double e
+        {
+            get
+            {
+                return e1;
+            }
+            set
+            {
+                e1 = value;
             }
         }
         public string classe
