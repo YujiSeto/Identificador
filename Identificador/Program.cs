@@ -1269,7 +1269,7 @@ namespace Identificador
                         Console.WriteLine("Desvio Padrão: " + desvioPadrao);
                         Console.WriteLine("------------------------------------------");
                         Console.WriteLine("");
-                        Console.WriteLine("Press any key to return to menu or 0 to exit");
+                        Console.WriteLine("Pressione qualquer tecla para voltar ao menu ou 0 para sair");
                         Console.ReadKey();
                     }
 
