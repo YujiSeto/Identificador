@@ -127,7 +127,7 @@ namespace Identificador.Classes
         }
     }
 
-    //Declarar Indicadores
+    //Declarar Indicadores :)
     public class Indicadores
     {
         private int acertos1;
